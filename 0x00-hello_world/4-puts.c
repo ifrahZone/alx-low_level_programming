@@ -1,6 +1,7 @@
 #include <stdio.h>
-/*main: is a function that prints a text,
- *return (0)
+/*
+ * main: is a function that prints a text,
+ * return (0)
  */
 int main(void)
 {

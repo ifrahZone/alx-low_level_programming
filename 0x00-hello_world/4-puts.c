@@ -2,7 +2,7 @@
 /**
  * main - is a function that prints a text
  *
- * return : 0 (success)
+ * Return: 0 (success)
  **/
 int main(void)
 {

@@ -18,6 +18,7 @@ int main(void)
 	while (alph < 'g')
 	{
 		putchar(alph);
+		alph++;
 	}
 	putchar('\n');
 	return (0);

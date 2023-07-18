@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <main.h>
 
 /**
  * print_alphabet - a program that prints the alphabet in lowercase.
@@ -17,5 +18,4 @@ void print_alphabet (void)
 	}
 
 	_putchar('\n');
-	return (0);
 }

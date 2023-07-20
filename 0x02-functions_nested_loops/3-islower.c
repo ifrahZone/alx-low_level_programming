@@ -3,7 +3,7 @@
 
 /**
  * _islower - a program that checks for lowercase character.
- *
+ *@c: character
  * Return: 1 (lowercase)
  **/
 

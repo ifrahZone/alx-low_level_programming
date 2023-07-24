@@ -17,7 +17,7 @@ int i = 0;
 
 while (s[str] != '\0')
 str++;
-for (i = 0; i < counter; i++)
+for (i = 0; i < str; i++)
 {
 str--;
 r = s[i];

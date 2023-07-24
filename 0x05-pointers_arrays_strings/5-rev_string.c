@@ -18,14 +18,12 @@ int i = 0;
 while (*s != '\0')
 {
 str++;
-s++;
 }
-s--;
-while (str-i > 0)
+while (str - i > 0)
 {
 r = s[i];
-s[i] = s[str -i];
-s[str -i] = r;
+s[i] = s[str - i];
+s[str - i] = r;
 i++;
 str--;
 }

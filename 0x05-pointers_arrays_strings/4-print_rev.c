@@ -11,5 +11,18 @@
 
 void print_rev(char *s)
 {
-	printf("%s\n", s[::-1]);
+	int len = 0;
+
+        while (*s != '\0')
+        {
+                len++;
+                s++;
+        }
+        s--;
+        while (*s < len)
+        {
+                _putchar(*s);
+                s--;
+        }
+        printf("\n");
 }

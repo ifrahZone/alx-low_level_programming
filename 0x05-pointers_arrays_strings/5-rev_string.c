@@ -20,7 +20,7 @@ while (*s != '\0')
 str++;
 s++;
 }
-s--
+s--;
 while (str-i > 0)
 {
 r = s[i];

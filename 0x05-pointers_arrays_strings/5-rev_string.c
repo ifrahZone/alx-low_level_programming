@@ -27,5 +27,6 @@ r = s[i];
 s[i] = s[str -i];
 s[str -i] = r;
 i++;
+str--;
 }
 }

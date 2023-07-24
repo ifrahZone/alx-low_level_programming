@@ -19,12 +19,11 @@ while (*s != '\0')
 {
 str++;
 }
-while (str - i > 0)
+while ((str / 2) - i > 0)
 {
 r = s[i];
 s[i] = s[str - i];
 s[str - i] = r;
 i++;
-str--;
 }
 }

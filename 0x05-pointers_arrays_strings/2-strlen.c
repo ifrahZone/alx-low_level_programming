@@ -11,8 +11,8 @@
 
 int _strlen(char *s)
 {
-	char c;
+	const char *c;
 
-	c = *s;
-	return (strlen(c));
+	*c = *s;
+	return (strlen(*c));
 }

@@ -19,10 +19,10 @@ void print_rev(char *s)
                 s++;
         }
         s--;
-        while (*s < len)
+        while (*s > 0)
         {
                 putchar(*s);
                 s--;
         }
-        printf("\n");
+		printf("\n");
 }

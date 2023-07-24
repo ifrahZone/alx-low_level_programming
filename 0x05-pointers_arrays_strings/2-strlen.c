@@ -11,8 +11,12 @@
 
 int _strlen(char *s)
 {
-	const char *c;
+	int len = 0;
 
-	*c = *s;
-	return (strlen(*c));
+	while (*s != '\0')
+	{
+		len++;
+		s++;
+	}
+	return (len);
 }

@@ -11,20 +11,21 @@
 
 void rev_string(char *s)
 {
-char *str;
+int str;
+char r;
+int i = 0;
 
 while (*s != '\0')
 {
-str = str + s;
+str++;
 s++;
 }
-s--;
-while (*s > 0)
+s--
+while (str-i > 0)
 {
-s = str;
-s--;
-str++;
+r = s[i];
+s[i] = s[str -i];
+s[str -i] = r;
+i++;
 }
 }
-
-

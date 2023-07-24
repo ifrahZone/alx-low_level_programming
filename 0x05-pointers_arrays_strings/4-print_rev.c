@@ -11,5 +11,5 @@
 
 void print_rev(char *s)
 {
-	printf("%s\n", s[-1]);
+	printf("%s\n", s[::-1]);
 }
